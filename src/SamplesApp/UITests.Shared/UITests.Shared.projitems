@@ -425,6 +425,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\MenuBarTests\SimpleMenuBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\NavigationViewTests\NavigationView_TopNavigation.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -1573,6 +1577,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\MediaPlayerElement\MediaPlayerElement_Minimal.xaml.cs">
       <DependentUpon>MediaPlayerElement_Minimal.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\MenuBarTests\SimpleMenuBar.xaml.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\Models\ChatBoxViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Windows_UI_Xaml_Controls\MediaPlayerElement\MediaPlayerElement_Mkv_Extension.xaml.cs">
       <DependentUpon>MediaPlayerElement_Mkv_Extension.xaml</DependentUpon>
@@ -2416,53 +2421,8 @@
     <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml\UIElementTests\TransformToVisual_Simple.xaml.cs">
       <DependentUpon>TransformToVisual_Simple.xaml</DependentUpon>
     </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\BackGesture\BackGesture_Chooser.xaml.cs">
-      <DependentUpon>BackGesture_Chooser.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\BackGesture\BackGesture_Collapsed.xaml.cs">
-      <DependentUpon>BackGesture_Collapsed.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\BackGesture\BackGesture_CollapsedNavigationCommand.xaml.cs">
-      <DependentUpon>BackGesture_CollapsedNavigationCommand.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\BackGesture\BackGesture_NavigationCommand.xaml.cs">
-      <DependentUpon>BackGesture_NavigationCommand.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\BackGesture\BackGesture_Normal.xaml.cs">
-      <DependentUpon>BackGesture_Normal.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\CommandBar_BackGesture.xaml.cs">
-      <DependentUpon>CommandBar_BackGesture.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\CommandBar_Content.xaml.cs">
-      <DependentUpon>CommandBar_Content.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\CommandBar_Dynamic.xaml.cs">
-      <DependentUpon>CommandBar_Dynamic.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\CommandBar_Examples.xaml.cs">
-      <DependentUpon>CommandBar_Examples.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\CommandBar_Extensions.xaml.cs">
-      <DependentUpon>CommandBar_Extensions.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\CommandBar_Flyout.xaml.cs">
-      <DependentUpon>CommandBar_Flyout.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\CommandBar_LongTitle.xaml.cs">
-      <DependentUpon>CommandBar_LongTitle.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\CommandBar_Native.xaml.cs">
-      <DependentUpon>CommandBar_Native.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\CommandBar_Padding.xaml.cs">
-      <DependentUpon>CommandBar_Padding.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\CommandBar_Uppercase_Resource.xaml.cs">
-      <DependentUpon>CommandBar_Uppercase_Resource.xaml</DependentUpon>
-    </Compile>
-    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\CommandBar\CommandBar_With_Long_Sentences.xaml.cs">
-      <DependentUpon>CommandBar_With_Long_Sentences.xaml</DependentUpon>
+    <Compile Update="C:\s\nv.github\uno\src\SamplesApp\UITests.Shared\Windows_UI_Xaml_Controls\MenuBarTests\SimpleMenuBar.xaml.cs">
+      <DependentUpon>SimpleMenuBar.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
