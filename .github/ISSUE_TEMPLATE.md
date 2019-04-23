@@ -39,6 +39,7 @@ Affected platform(s):
 - [ ] Android
 - [ ] WebAssembly
 - [ ] Windows
+- [ ] macOS
 - [ ] Build tasks
 
 Visual Studio

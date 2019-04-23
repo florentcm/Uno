@@ -37,6 +37,9 @@
 * WebAssembly UI tests are now integrated in the CI
 * Enable support for macOS head development
 * [Wasm] Add NativeXXX styles (which are aliases to the XamlXXX styles)
+* MenuBar
+    - Import of MenuBar code, not functional yet as MenuItemFlyout (Issue #801)
+    - Basic support for macOS native system menus
 
 ### Breaking Changes
 * The `WebAssemblyRuntime.InvokeJSUnmarshalled` method with three parameters has been removed.
